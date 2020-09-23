@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    
+    padding-top: 3rem;
+    padding-right: 25rem;
+}
+body{
+    background-image: url(./pexels-wolfgang-2748025.jpg);
+}
+.class{
+    margin-top:15px;
+  }
+ 
+  .class ul
+  {
+    list-style:none;
+    position:relative;
+    float:left;
+  }
+
+  .class ul a
+  {
+    display:block;
+    
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+    line-height:32px;
+    padding:0 15px;
+   
+  }
+
+  .class ul li
+  { float: left;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+  }
+
+  .class ul li.active
+  {
+   
+  }
+
+  .class ul li:hover
+  {
+    /*background:#f6f6f6*/
+    background: #5d6e64;
+  }
+
+  .class ul ul
+  {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#27ae60;
+    padding:0
+  }
+
+  .class ul ul li
+  {
+    float:none;
+    width:200px;
+    border-left: 3px solid #27ae60;
+  }
+  .class ul ul li:hover{
+    border-left: 3px solid #2c3e50;
+  }
+
+  .class ul ul a
+  {
+    line-height:120%;
+    padding:10px 15px
+  }
+
+  .class ul ul ul
+  {
+    top:-4px;
+    left:100%
+  }
+
+  .class ul li:hover > ul
+  {
+    display:block
+  }
+  .bgg{
+    margin-top: 8rem;
+  }
+
+.travel{
+    border-left: 3px solid white;
+    
+}
+.img{
+    height: 10rem;
+}
+.br{
+    color: white;
+}
+.im2{
+    height: 16rem;
+    width: 20rem;
+    border: 1px solid white;
+}
+.text{
+    color: rgb(48, 42, 42)
+
+}
+.la{
+    padding-top: 1rem;
+  
+}
+.price{
+    color: red;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.pc{
+    font-size: 1rem;
+}
+.know{
+    color: white;
+}
+.tf{
+    color: white;
+    padding: 1rem;
+}
+.one{
+    color: white;
+    
+}
+.for{
+    width: ;
+}
+.abt{
+    color: white;
+}
+.white{
+    color: white;
+}
+.green{
+    color: green;
+}
